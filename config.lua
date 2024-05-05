@@ -1,12 +1,12 @@
 Config = {}
 
-Config.UseOldEsx = false
+Config.UseOldEsx = false -- false use ESX Export
 
 Config.Notify = 'okok' -- 'ox' / 'okok' / 'esx'
 
-Config.PoliceAlertProbability = 0 -- in %
+Config.PoliceAlertProbability = 30 -- in %
 
-Config.ResistanceChance = 0 -- in % / 0 for disable
+Config.ResistanceChance = 5 -- in % / 0 for disable
 
 Config.NameWeaponNPC = "weapon_snspistol_mk2" -- https://wiki.rage.mp/index.php?title=Weapons must be [Handguns]
 
@@ -14,7 +14,7 @@ Config.CheckUpdate = true
 
 
 
-Config.BlacklistNpc = {
+Config.BlacklistNpc = { --- Npc can't be rob
     [GetHashKey('s_m_m_highsec_01')] = true,
     [GetHashKey('s_f_m_shop_high')] = true,
     [GetHashKey('mp_m_weapexp_01')] = true,
@@ -43,7 +43,7 @@ Config.Items = {
     },
 }
 
-Strings = { --- 
+Strings = { --- translation
     ['can_rob_npc_again'] = 'Vous ne pouvez pas braquer la même personne deux fois',
     ['rob_complete'] = 'You have rob this person',
     ['police_alert'] = 'Un citoyen se fait Racketter , faites vite !',
