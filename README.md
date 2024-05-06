@@ -15,7 +15,7 @@
 * **📣 Configurable Notifications**: Supports OX / OKOK or ESX notifications.
 * **🔒 Minimum Cops Requirement**: A configurable number of minimum police presence required for a robbery to proceed.
 * **🚨 Police Alerts**: Configurable probability and notifications for police alerts when a robbery occurs.
-* **🚓 Npc Attack probability **: Probability of an NPC becoming aggressive .
+* **🚓 Npc Attack probability**: Probability of an NPC becoming aggressive .
 * **👨‍🔧 Multi-language and Easy to Configure**: Configurations and messages can be easily adjusted via config.lua.
 * **🔄 Automated Updates**: Automatic update checks to ensure users always have the latest version.
 * **🟢 Maximum Optimization**: Designed for minimal performance impact (0.00 ms).
