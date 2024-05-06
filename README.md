@@ -107,7 +107,7 @@ Strings = { --- translation
 
 **Live Preview**
 
-[YOUTUBE](https://github.com/BX-DEV-FIVEM/BX-Carjob)
+[YOUTUBE](https://www.youtube.com/watch?v=L5CmgFKxnKA)
 
 
 ***
