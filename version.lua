@@ -1,6 +1,6 @@
 
 
-local version = 'V1.0'
+local version = 'V2.0'
 local expectedResourceName = "BX-NpcRob"
 
 if Config.CheckUpdate then

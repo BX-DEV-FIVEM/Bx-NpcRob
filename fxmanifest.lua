@@ -6,7 +6,7 @@ name 'BX-NpcRob'
 author 'BX-DEV'
 
 description 'Npc robbery'
-version 'V1.0'
+version 'V2.0'
 url 'https://github.com/BX-DEV-FIVEM'
 
 

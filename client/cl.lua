@@ -47,7 +47,7 @@ function Notify(msg, typenotif)
     end
 end
 
-
+local lastRobberyTime = 0 
 
 exports.ox_target:addGlobalPed({
     {
@@ -63,6 +63,14 @@ exports.ox_target:addGlobalPed({
             return GetPedType(entity) == 28
         end, 
         onSelect = function(data)
+            local currentTime = GetGameTimer() / 1000
+            if currentTime - lastRobberyTime < Config.TimeToRobAgain then
+                Notify(Strings['rob_cooldown'], 'error')
+                return false
+            end
+            lastRobberyTime = currentTime
+
+            
             ESX.TriggerServerCallback('BX-NpcRob:amount', function(tooFewCops)
                 if tooFewCops then
                     Notify(Strings['need_police'], 'error')
