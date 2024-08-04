@@ -4,15 +4,15 @@ Config.UseOldEsx = false -- false use ESX Export
 
 Config.Notify = 'okok' -- 'ox' / 'okok' / 'esx'
 
-Config.TimeToRobAgain = 30
+Config.TimeToRobAgain = 20 -- ( start when you start to rob )
 
 Config.MinimumCops = 1 -- Minimum cops for rob 
 
 Config.PoliceJobName = 'police' -- Name of police job
 
-Config.PoliceAlertProbability = 30 -- in %
+Config.PoliceAlertProbability = 50 -- in %
 
-Config.ResistanceChance = 5 -- in % / 0 for disable
+Config.ResistanceChance = 10 -- in % / 0 for disable
 
 
 Config.NameWeaponNPC = "weapon_snspistol_mk2" -- https://wiki.rage.mp/index.php?title=Weapons must be [Handguns]
@@ -57,7 +57,8 @@ Strings = { --- translation
     ['police_alert'] = 'A citizen is being racketed, help him!',
     ['police_alert_blip'] = 'Racket',
     ['need_police'] = 'Not enough police officers in town.',
-    ['rob_cooldown'] = 'Vous ne pouvez pas ',
+    ['rob_cooldown'] = 'You must wait  ',
+    ['to_far'] = 'The person is too far away and flees ',
 }
 
 
