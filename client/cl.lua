@@ -142,6 +142,10 @@ exports.ox_target:addGlobalPed({
                     Wait(2000) 
                     TriggerServerEvent('BX-NpcRob:server:robNpc', NetworkGetNetworkIdFromEntity(data.entity))
                     Notify(Strings['rob_complete'], 'success')
+                else
+
+                    Notify(Strings['to_far'], 'error')
+
                 end
             
                 ClearPedTasksImmediately(data.entity) 
